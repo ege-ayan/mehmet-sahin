@@ -4,10 +4,10 @@ import HomeMedia from "./_sections/home-media";
 
 export default function Page() {
   return (
-    <div>
+    <>
       <HomeOpening />
       <HomeFields />
       <HomeMedia />
-    </div>
+    </>
   );
 }
