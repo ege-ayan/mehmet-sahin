@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-linear-to-br from-blue-900 via-blue-800 to-blue-900 text-white">
+    <footer className="w-full bg-linear-to-r from-gray-900 via-blue-900 to-gray-900 text-white border-t border-blue-800/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16">
           <div className="space-y-4">
@@ -36,39 +36,39 @@ export default function Footer() {
             </h3>
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-base lg:text-lg group">
-                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-green-400/20 group-hover:bg-green-400/30 transition-colors shrink-0">
+                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-blue-500/20 group-hover:bg-blue-500/30 transition-colors shrink-0">
                   <FaPhoneAlt
-                    className="text-green-300 text-sm"
+                    className="text-blue-300 text-sm"
                     aria-hidden="true"
                   />
                 </div>
                 <a
                   href="tel:+903129117777"
-                  className="text-blue-100 hover:text-yellow-300 transition-colors"
+                  className="text-blue-100 hover:text-blue-200 transition-colors"
                 >
                   0312 911 77 77
                 </a>
               </div>
 
               <div className="flex items-center gap-3 text-base lg:text-lg group">
-                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-yellow-400/20 group-hover:bg-yellow-400/30 transition-colors shrink-0">
+                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-blue-500/20 group-hover:bg-blue-500/30 transition-colors shrink-0">
                   <FaEnvelope
-                    className="text-yellow-300 text-sm"
+                    className="text-blue-300 text-sm"
                     aria-hidden="true"
                   />
                 </div>
                 <Link
                   href="mailto:mehmet_sahintr@yahoo.com"
-                  className="text-blue-100 hover:text-yellow-300 transition-colors underline decoration-blue-400 break-all"
+                  className="text-blue-100 hover:text-blue-200 transition-colors underline decoration-blue-400 break-all"
                 >
                   mehmet_sahintr@yahoo.com
                 </Link>
               </div>
 
               <div className="flex items-center gap-3 text-base lg:text-lg group">
-                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-pink-400/20 group-hover:bg-pink-400/30 transition-colors shrink-0">
+                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-blue-500/20 group-hover:bg-blue-500/30 transition-colors shrink-0">
                   <FaInstagram
-                    className="text-pink-300 text-sm"
+                    className="text-blue-300 text-sm"
                     aria-hidden="true"
                   />
                 </div>
@@ -76,7 +76,7 @@ export default function Footer() {
                   href="https://www.instagram.com/dr.mehmet.sahin"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-100 hover:text-yellow-300 transition-colors underline decoration-blue-400"
+                  className="text-blue-100 hover:text-blue-200 transition-colors underline decoration-blue-400"
                 >
                   @dr.mehmet.sahin
                 </Link>
@@ -90,9 +90,9 @@ export default function Footer() {
             </h3>
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-base lg:text-lg group">
-                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-purple-400/20 group-hover:bg-purple-400/30 transition-colors shrink-0">
+                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-blue-500/20 group-hover:bg-blue-500/30 transition-colors shrink-0">
                   <FaCalendarAlt
-                    className="text-purple-300 text-sm"
+                    className="text-blue-300 text-sm"
                     aria-hidden="true"
                   />
                 </div>
@@ -100,16 +100,16 @@ export default function Footer() {
                   href="https://www.doktortakvimi.com/mehmet-sahin-2/goz-hastaliklari/ankara"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-100 hover:text-yellow-300 transition-colors underline decoration-blue-400"
+                  className="text-blue-100 hover:text-blue-200 transition-colors underline decoration-blue-400"
                 >
                   Doktor Takvimi
                 </Link>
               </div>
 
               <div className="flex items-center gap-3 text-base lg:text-lg group">
-                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-cyan-400/20 group-hover:bg-cyan-400/30 transition-colors shrink-0">
+                <div className="flex items-center justify-center w-9 h-9 rounded-full bg-blue-500/20 group-hover:bg-blue-500/30 transition-colors shrink-0">
                   <FaGlobe
-                    className="text-cyan-300 text-sm"
+                    className="text-blue-300 text-sm"
                     aria-hidden="true"
                   />
                 </div>
@@ -117,7 +117,7 @@ export default function Footer() {
                   href="https://www.doktorsitesi.com/op-dr-mehmet-sahin/goz-hastaliklari/ankara"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-100 hover:text-yellow-300 transition-colors underline decoration-blue-400"
+                  className="text-blue-100 hover:text-blue-200 transition-colors underline decoration-blue-400"
                 >
                   Doktor Sitesi
                 </Link>

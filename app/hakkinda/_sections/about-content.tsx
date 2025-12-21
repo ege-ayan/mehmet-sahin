@@ -11,191 +11,232 @@ import {
 
 export default function AboutContent() {
   return (
-    <main className="w-full flex px-4 sm:px-6 lg:px-8 pt-32 sm:pt-48 pb-20 flex-col items-center bg-linear-to-b from-gray-50 to-white">
-      <article className="container flex flex-col items-center justify-center">
-        <header className="text-4xl lg:text-6xl font-bold text-center tracking-tight mb-12 lg:mb-16">
-          <h1 className="bg-linear-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-            HAKKIMDA
+    <main className="relative w-full min-h-screen pt-32 sm:pt-48 pb-20 flex flex-col items-center bg-linear-to-br from-gray-900 via-blue-900 to-gray-900 overflow-hidden">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 2px 2px, white 1px, transparent 0)",
+            backgroundSize: "40px 40px",
+          }}
+        />
+      </div>
+
+      <article className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col items-center justify-center">
+        {/* Section Header */}
+        <header className="text-center mb-16 lg:mb-20">
+          <div className="inline-block">
+            <span className="text-blue-400 text-sm sm:text-base font-semibold tracking-wider uppercase mb-4 block">
+              Profesyonel Profil
+            </span>
+          </div>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
+            <span className="bg-linear-to-r from-blue-400 via-blue-300 to-blue-400 bg-clip-text text-transparent">
+              HAKKIMDA
+            </span>
           </h1>
+          <div className="w-24 h-1 bg-linear-to-r from-blue-400 via-blue-300 to-blue-400 mx-auto rounded-full" />
         </header>
 
         <section
           aria-labelledby="personal-info"
-          className="flex w-full bg-linear-to-br from-blue-600 via-blue-700 to-blue-900 p-6 sm:p-8 lg:p-12 rounded-2xl shadow-2xl flex-col-reverse lg:flex-row items-center justify-between gap-8 lg:gap-16 transition-all duration-300 hover:shadow-blue-500/20"
+          className="relative w-full mb-12 lg:mb-20"
         >
-          <div className="flex flex-col w-full lg:w-2/3 justify-center text-white space-y-8">
-            <h2 id="personal-info" className="sr-only">
-              Kişisel Bilgiler
-            </h2>
+          <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-8 lg:gap-16">
+            {/* Content */}
+            <div className="flex flex-col w-full lg:w-1/2 justify-center text-white space-y-8">
+              <h2 id="personal-info" className="sr-only">
+                Kişisel Bilgiler
+              </h2>
 
-            <div className="space-y-4">
-              <div className="flex items-center gap-4 text-2xl lg:text-3xl font-bold">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-yellow-400/20">
-                  <FaUser
-                    className="text-yellow-300 text-xl"
-                    aria-hidden="true"
-                  />
+              <div className="space-y-4">
+                <div className="flex items-center gap-4 text-xl lg:text-2xl font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20">
+                    <FaUser
+                      className="text-blue-300 text-xl"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  <span>Kişisel Bilgiler</span>
                 </div>
-              <span>Kişisel Bilgiler</span>
-            </div>
-              <p className="pl-16 text-lg lg:text-xl text-blue-50 leading-relaxed">
-              1976 Mersin doğumluyum. Evli ve bir çocuk babasıyım.
-            </p>
-            </div>
-
-            <div className="space-y-4">
-              <div className="flex items-center gap-4 text-2xl lg:text-3xl font-bold">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-green-400/20">
-                  <FaBriefcase
-                    className="text-green-300 text-xl"
-                    aria-hidden="true"
-                  />
-                </div>
-                <span>İş Tecrübesi</span>
+                <p className="pl-16 text-base lg:text-lg text-blue-100 leading-relaxed">
+                  1976 Mersin doğumluyum. Evli ve bir çocuk babasıyım.
+                </p>
               </div>
-              <p className="pl-16 text-lg lg:text-xl text-blue-50 leading-relaxed">
-                2003-2011 yılları arasında kamu hastanelerinde görev yaptım.
-                2011 yılından beri özel sektördeyim. Halen Özel Koru Hastanesi
-              (Çukurambar) bünyesindeki göz kliniğinde çalışmaktayım.
-            </p>
+
+              <div className="space-y-4">
+                <div className="flex items-center gap-4 text-xl lg:text-2xl font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20">
+                    <FaBriefcase
+                      className="text-blue-300 text-xl"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  <span>İş Tecrübesi</span>
+                </div>
+                <p className="pl-16 text-base lg:text-lg text-blue-100 leading-relaxed">
+                  2003-2011 yılları arasında kamu hastanelerinde görev yaptım.
+                  2011 yılından beri özel sektördeyim. Halen Özel Koru Hastanesi
+                  (Çukurambar) bünyesindeki göz kliniğinde çalışmaktayım.
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <div className="flex items-center gap-4 text-xl lg:text-2xl font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20">
+                    <FaGraduationCap
+                      className="text-blue-300 text-xl"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  <span>Eğitim Bilgileri</span>
+                </div>
+                <p className="pl-16 text-base lg:text-lg text-blue-100 leading-relaxed">
+                  1999 yılında Ankara Üniversitesi Tıp Fakültesi'nden mezun
+                  oldum. 2003 yılında Ankara Eğitim ve Araştırma Hastanesi Göz
+                  Kliniği'nde ihtisasımı tamamladım.
+                </p>
+              </div>
             </div>
 
-            <div className="space-y-4">
-              <div className="flex items-center gap-4 text-2xl lg:text-3xl font-bold">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-red-400/20">
-                  <FaGraduationCap
-                    className="text-red-300 text-xl"
-                    aria-hidden="true"
+            {/* Image */}
+            <figure className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+              <div className="relative max-w-lg w-full">
+                {/* Decorative Elements */}
+                <div className="absolute -inset-4 bg-linear-to-r from-blue-500 to-blue-700 rounded-3xl blur-2xl opacity-30" />
+
+                {/* Image Container */}
+                <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 bg-gray-800">
+                  <Image
+                    src="/images/about/about-1.jpg"
+                    alt="Op. Dr. Mehmet Şahin - Profil Fotoğrafı"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
+                    priority
+                    className="object-cover"
                   />
                 </div>
-                <span>Eğitim Bilgileri</span>
               </div>
-              <p className="pl-16 text-lg lg:text-xl text-blue-50 leading-relaxed">
-              1999 yılında Ankara Üniversitesi Tıp Fakültesi'nden mezun oldum.
-                2003 yılında Ankara Eğitim ve Araştırma Hastanesi Göz
-                Kliniği'nde ihtisasımı tamamladım.
-            </p>
-            </div>
+            </figure>
           </div>
-
-          <figure className="w-full lg:w-1/3 flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-sm aspect-square">
-            <Image
-              src="/images/about/about-1.jpg"
-                alt="Op. Dr. Mehmet Şahin - Profil Fotoğrafı"
-                fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
-              priority
-                className="rounded-2xl shadow-2xl border-4 border-white/80 object-cover"
-            />
-            </div>
-          </figure>
         </section>
 
         <section
           aria-labelledby="expertise"
-          className="flex flex-col w-full mt-12 lg:mt-20 bg-linear-to-br from-blue-900 via-blue-700 to-blue-600 p-6 sm:p-8 lg:p-12 rounded-2xl shadow-2xl lg:flex-row items-center justify-between gap-8 lg:gap-16 transition-all duration-300 hover:shadow-blue-500/20"
+          className="relative w-full mt-12 lg:mt-20"
         >
-          <figure className="w-full lg:w-1/3 flex justify-center lg:justify-start">
-            <div className="relative w-full max-w-sm aspect-square">
-            <Image
-              src="/images/about/about-2.jpg"
-                alt="Op. Dr. Mehmet Şahin - Çalışma Ortamı"
-                fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
-              priority
-                className="rounded-2xl shadow-2xl border-4 border-white/80 object-cover"
-            />
-            </div>
-          </figure>
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-16">
+            {/* Image */}
+            <figure className="w-full lg:w-1/2 flex justify-center lg:justify-start">
+              <div className="relative max-w-lg w-full">
+                {/* Decorative Elements */}
+                <div className="absolute -inset-4 bg-linear-to-r from-blue-500 to-blue-700 rounded-3xl blur-2xl opacity-30" />
 
-          <div className="flex flex-col w-full lg:w-2/3 justify-center text-white space-y-8">
-            <h2 id="expertise" className="sr-only">
-              Uzmanlık Alanı
-            </h2>
-
-            <div className="space-y-4">
-              <div className="flex items-center gap-4 text-2xl lg:text-3xl font-bold">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-purple-400/20">
-                  <FaStethoscope
-                    className="text-purple-300 text-xl"
-                    aria-hidden="true"
+                {/* Image Container */}
+                <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 bg-gray-800">
+                  <Image
+                    src="/images/about/about-2.jpg"
+                    alt="Op. Dr. Mehmet Şahin - Çalışma Ortamı"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
+                    priority
+                    className="object-cover"
                   />
                 </div>
-              <span>Uzmanlık Alanı</span>
-            </div>
-              <p className="pl-16 text-lg lg:text-xl text-blue-50 leading-relaxed">
-              Katarakt ve Diğer Ön Segment Cerrahileri, Refraktif Cerrahi,
-                Retina Hastalıkları{" "}
-                <span className="font-semibold text-yellow-300">
-                  (30.000'den fazla vaka deneyimi)
-                </span>
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <div className="flex items-center gap-4 text-2xl lg:text-3xl font-bold">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-cyan-400/20">
-                  <FaLanguage
-                    className="text-cyan-300 text-xl"
-                    aria-hidden="true"
-                  />
-                </div>
-              <span>Yabancı Dil Bilgisi</span>
               </div>
-              <p className="pl-16 text-lg lg:text-xl text-blue-50 leading-relaxed">
-                İngilizce
-              </p>
-            </div>
+            </figure>
 
-            <div className="space-y-4">
-              <div className="flex items-center gap-4 text-2xl lg:text-3xl font-bold">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-pink-400/20">
-                  <FaUsers
-                    className="text-pink-300 text-xl"
-                    aria-hidden="true"
-                  />
+            {/* Content */}
+            <div className="flex flex-col w-full lg:w-1/2 justify-center text-white space-y-8">
+              <h2 id="expertise" className="sr-only">
+                Uzmanlık Alanı
+              </h2>
+
+              <div className="space-y-4">
+                <div className="flex items-center gap-4 text-xl lg:text-2xl font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20">
+                    <FaStethoscope
+                      className="text-blue-300 text-xl"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  <span>Uzmanlık Alanı</span>
                 </div>
-              <span>Üyesi Olduğu Dernekler</span>
-            </div>
-            <ul
-                className="pl-16 space-y-3 text-lg lg:text-xl"
-              aria-label="Üyesi Olduğu Dernekler"
-            >
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 mt-2 mr-3 bg-yellow-300 rounded-full shrink-0"></span>
-                <Link
-                  href="https://www.todnet.org/home/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                    className="text-blue-50 hover:text-yellow-300 transition-colors duration-200 underline decoration-blue-300 hover:decoration-yellow-300"
+                <p className="pl-16 text-base lg:text-lg text-blue-100 leading-relaxed">
+                  Katarakt ve Diğer Ön Segment Cerrahileri, Refraktif Cerrahi,
+                  Retina Hastalıkları{" "}
+                  <span className="font-semibold text-blue-300">
+                    (30.000'den fazla vaka deneyimi)
+                  </span>
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <div className="flex items-center gap-4 text-xl lg:text-2xl font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20">
+                    <FaLanguage
+                      className="text-blue-300 text-xl"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  <span>Yabancı Dil Bilgisi</span>
+                </div>
+                <p className="pl-16 text-base lg:text-lg text-blue-100 leading-relaxed">
+                  İngilizce
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <div className="flex items-center gap-4 text-xl lg:text-2xl font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20">
+                    <FaUsers
+                      className="text-blue-300 text-xl"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  <span>Üyesi Olduğu Dernekler</span>
+                </div>
+                <ul
+                  className="pl-16 space-y-3 text-base lg:text-lg"
+                  aria-label="Üyesi Olduğu Dernekler"
                 >
-                  Türk Oftalmoloji Derneği (TOD)
-                </Link>
-              </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 mt-2 mr-3 bg-yellow-300 rounded-full shrink-0"></span>
-                <Link
-                  href="https://tcod-tros.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                    className="text-blue-50 hover:text-yellow-300 transition-colors duration-200 underline decoration-blue-300 hover:decoration-yellow-300"
-                >
-                  Türk Cumhuriyetleri Oftalmoloji Derneği (TCOD)
-                </Link>
-              </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 mt-2 mr-3 bg-yellow-300 rounded-full shrink-0"></span>
-                <Link
-                  href="https://www.aao.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                    className="text-blue-50 hover:text-yellow-300 transition-colors duration-200 underline decoration-blue-300 hover:decoration-yellow-300"
-                >
-                  American Academy of Ophthalmology (AAO)
-                </Link>
-              </li>
-            </ul>
+                  <li className="flex items-start">
+                    <span className="inline-block w-2 h-2 mt-2 mr-3 bg-blue-300 rounded-full shrink-0"></span>
+                    <Link
+                      href="https://www.todnet.org/home/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-100 underline decoration-blue-400"
+                    >
+                      Türk Oftalmoloji Derneği (TOD)
+                    </Link>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="inline-block w-2 h-2 mt-2 mr-3 bg-blue-300 rounded-full shrink-0"></span>
+                    <Link
+                      href="https://tcod-tros.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-100 underline decoration-blue-400"
+                    >
+                      Türk Cumhuriyetleri Oftalmoloji Derneği (TCOD)
+                    </Link>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="inline-block w-2 h-2 mt-2 mr-3 bg-blue-300 rounded-full shrink-0"></span>
+                    <Link
+                      href="https://www.aao.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-100 underline decoration-blue-400"
+                    >
+                      American Academy of Ophthalmology (AAO)
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>

@@ -15,9 +15,9 @@ export default function Navbar() {
             className="flex select-none flex-col items-start group transition-transform duration-300 hover:scale-[1.02]"
             aria-label="Op. Dr. Mehmet Şahin Ana Sayfa"
           >
-            <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white transition-colors duration-300 ">
+            <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-white transition-colors duration-300 ">
               OP. DR. MEHMET ŞAHİN
-            </h1>
+            </span>
             <div className="w-full h-0.5 bg-linear-to-r from-blue-400 via-blue-300 to-blue-400 mt-1.5 transform origin-left transition-transform duration-300 group-hover:scale-x-110" />
             <p className="text-[10px] sm:text-xs lg:text-sm text-blue-300 mt-1.5 font-medium tracking-wide">
               KATARAKT VE REFRAKTİF CERRAHİ (EXCIMER LAZER)
