@@ -36,11 +36,11 @@ export default function AboutContent() {
                     aria-hidden="true"
                   />
                 </div>
-                <span>Kişisel Bilgiler</span>
-              </div>
+              <span>Kişisel Bilgiler</span>
+            </div>
               <p className="pl-16 text-lg lg:text-xl text-blue-50 leading-relaxed">
-                1976 Mersin doğumluyum. Evli ve bir çocuk babasıyım.
-              </p>
+              1976 Mersin doğumluyum. Evli ve bir çocuk babasıyım.
+            </p>
             </div>
 
             <div className="space-y-4">
@@ -56,8 +56,8 @@ export default function AboutContent() {
               <p className="pl-16 text-lg lg:text-xl text-blue-50 leading-relaxed">
                 2003-2011 yılları arasında kamu hastanelerinde görev yaptım.
                 2011 yılından beri özel sektördeyim. Halen Özel Koru Hastanesi
-                (Çukurambar) bünyesindeki göz kliniğinde çalışmaktayım.
-              </p>
+              (Çukurambar) bünyesindeki göz kliniğinde çalışmaktayım.
+            </p>
             </div>
 
             <div className="space-y-4">
@@ -71,23 +71,23 @@ export default function AboutContent() {
                 <span>Eğitim Bilgileri</span>
               </div>
               <p className="pl-16 text-lg lg:text-xl text-blue-50 leading-relaxed">
-                1999 yılında Ankara Üniversitesi Tıp Fakültesi'nden mezun oldum.
+              1999 yılında Ankara Üniversitesi Tıp Fakültesi'nden mezun oldum.
                 2003 yılında Ankara Eğitim ve Araştırma Hastanesi Göz
                 Kliniği'nde ihtisasımı tamamladım.
-              </p>
+            </p>
             </div>
           </div>
 
           <figure className="w-full lg:w-1/3 flex justify-center lg:justify-end">
             <div className="relative w-full max-w-sm aspect-square">
-              <Image
-                src="/images/about/about-1.jpg"
+            <Image
+              src="/images/about/about-1.jpg"
                 alt="Op. Dr. Mehmet Şahin - Profil Fotoğrafı"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
-                priority
+              priority
                 className="rounded-2xl shadow-2xl border-4 border-white/80 object-cover"
-              />
+            />
             </div>
           </figure>
         </section>
@@ -98,14 +98,14 @@ export default function AboutContent() {
         >
           <figure className="w-full lg:w-1/3 flex justify-center lg:justify-start">
             <div className="relative w-full max-w-sm aspect-square">
-              <Image
-                src="/images/about/about-2.jpg"
+            <Image
+              src="/images/about/about-2.jpg"
                 alt="Op. Dr. Mehmet Şahin - Çalışma Ortamı"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
-                priority
+              priority
                 className="rounded-2xl shadow-2xl border-4 border-white/80 object-cover"
-              />
+            />
             </div>
           </figure>
 
@@ -122,10 +122,10 @@ export default function AboutContent() {
                     aria-hidden="true"
                   />
                 </div>
-                <span>Uzmanlık Alanı</span>
-              </div>
+              <span>Uzmanlık Alanı</span>
+            </div>
               <p className="pl-16 text-lg lg:text-xl text-blue-50 leading-relaxed">
-                Katarakt ve Diğer Ön Segment Cerrahileri, Refraktif Cerrahi,
+              Katarakt ve Diğer Ön Segment Cerrahileri, Refraktif Cerrahi,
                 Retina Hastalıkları{" "}
                 <span className="font-semibold text-yellow-300">
                   (30.000'den fazla vaka deneyimi)
@@ -141,7 +141,7 @@ export default function AboutContent() {
                     aria-hidden="true"
                   />
                 </div>
-                <span>Yabancı Dil Bilgisi</span>
+              <span>Yabancı Dil Bilgisi</span>
               </div>
               <p className="pl-16 text-lg lg:text-xl text-blue-50 leading-relaxed">
                 İngilizce
@@ -156,46 +156,46 @@ export default function AboutContent() {
                     aria-hidden="true"
                   />
                 </div>
-                <span>Üyesi Olduğu Dernekler</span>
-              </div>
-              <ul
+              <span>Üyesi Olduğu Dernekler</span>
+            </div>
+            <ul
                 className="pl-16 space-y-3 text-lg lg:text-xl"
-                aria-label="Üyesi Olduğu Dernekler"
-              >
+              aria-label="Üyesi Olduğu Dernekler"
+            >
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 mt-2 mr-3 bg-yellow-300 rounded-full shrink-0"></span>
-                  <Link
-                    href="https://www.todnet.org/home/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                <Link
+                  href="https://www.todnet.org/home/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                     className="text-blue-50 hover:text-yellow-300 transition-colors duration-200 underline decoration-blue-300 hover:decoration-yellow-300"
-                  >
-                    Türk Oftalmoloji Derneği (TOD)
-                  </Link>
-                </li>
+                >
+                  Türk Oftalmoloji Derneği (TOD)
+                </Link>
+              </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 mt-2 mr-3 bg-yellow-300 rounded-full shrink-0"></span>
-                  <Link
-                    href="https://tcod-tros.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                <Link
+                  href="https://tcod-tros.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                     className="text-blue-50 hover:text-yellow-300 transition-colors duration-200 underline decoration-blue-300 hover:decoration-yellow-300"
-                  >
-                    Türk Cumhuriyetleri Oftalmoloji Derneği (TCOD)
-                  </Link>
-                </li>
+                >
+                  Türk Cumhuriyetleri Oftalmoloji Derneği (TCOD)
+                </Link>
+              </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 mt-2 mr-3 bg-yellow-300 rounded-full shrink-0"></span>
-                  <Link
-                    href="https://www.aao.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                <Link
+                  href="https://www.aao.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                     className="text-blue-50 hover:text-yellow-300 transition-colors duration-200 underline decoration-blue-300 hover:decoration-yellow-300"
-                  >
-                    American Academy of Ophthalmology (AAO)
-                  </Link>
-                </li>
-              </ul>
+                >
+                  American Academy of Ophthalmology (AAO)
+                </Link>
+              </li>
+            </ul>
             </div>
           </div>
         </section>
