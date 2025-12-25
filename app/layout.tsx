@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     "göz estetiği",
     "ankara göz doktoru",
   ],
-  authors: [{ name: "Op. Dr. Mehmet Şahin" }],
-  creator: "Op. Dr. Mehmet Şahin",
-  publisher: "Op. Dr. Mehmet Şahin",
+  authors: [{ name: "Ege Ayan", url: "https://egeayan.dev" }],
+  creator: "Ege Ayan",
+  publisher: "Ege Ayan",
   formatDetection: {
     email: false,
     address: false,
@@ -48,8 +48,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/home/op-dr-mehmet-sahin.jpg",
-        width: 1200,
-        height: 630,
+        width: 400,
+        height: 250,
         alt: "Op. Dr. Mehmet Şahin - Göz Hastalıkları Uzmanı",
       },
     ],
