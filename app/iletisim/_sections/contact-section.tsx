@@ -17,7 +17,6 @@ export default function ContactSection() {
       </div>
 
       <article className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col items-center justify-center">
-        {/* Section Header */}
         <header className="text-center mb-12 lg:mb-16">
           <div className="inline-block">
             <span className="text-blue-400 text-sm sm:text-base font-semibold tracking-wider uppercase mb-4 block">
