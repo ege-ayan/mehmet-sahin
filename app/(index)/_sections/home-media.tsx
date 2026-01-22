@@ -11,6 +11,13 @@ export default function HomeMedia() {
     setIsVideoLoaded(true);
   };
 
+  // Re-process Instagram embeds on mount (for client-side navigation)
+  useEffect(() => {
+    if (typeof window !== "undefined" && (window as any).instgrm) {
+      (window as any).instgrm.Embeds.process();
+    }
+  }, []);
+
   return (
     <section className="relative w-full py-16 sm:py-24 bg-linear-to-br from-gray-900 via-blue-900 to-gray-900 overflow-hidden">
       {/* Instagram Embed Script */}
