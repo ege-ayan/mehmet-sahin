@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Hakkımda",
   description:
-    "Op. Dr. Mehmet Şahin hakkında bilgiler. 1999 Ankara Üniversitesi Tıp Fakültesi mezunu, 2003'te ihtisasını tamamladı. 30.000+ vaka deneyimi ile katarakt cerrahisi, refraktif cerrahi ve retina hastalıkları konusunda uzman.",
+    "Op. Dr. Mehmet Şahin hakkında bilgiler. 1999 Ankara Üniversitesi Tıp Fakültesi mezunu, 2003'te ihtisasını tamamladı. 40.000+ vaka deneyimi ile katarakt cerrahisi, refraktif cerrahi ve retina hastalıkları konusunda uzman.",
   keywords: [
     "mehmet şahin hakkında",
     "göz doktoru ankara",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hakkımda | Op. Dr. Mehmet Şahin",
     description:
-      "1999 Ankara Üniversitesi Tıp Fakültesi mezunu, 30.000+ vaka deneyimi ile katarakt cerrahisi ve retina hastalıkları konusunda uzman.",
+      "1999 Ankara Üniversitesi Tıp Fakültesi mezunu, 40.000+ vaka deneyimi ile katarakt cerrahisi ve retina hastalıkları konusunda uzman.",
     url: "/hakkinda",
     images: [
       {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "Hakkımda | Op. Dr. Mehmet Şahin",
     description:
-      "30.000+ vaka deneyimi ile katarakt cerrahisi ve retina hastalıkları konusunda uzman.",
+      "40.000+ vaka deneyimi ile katarakt cerrahisi ve retina hastalıkları konusunda uzman.",
     images: ["/images/about/about-1.jpg"],
   },
 };

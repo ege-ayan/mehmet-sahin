@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | Op. Dr. Mehmet Şahin",
   },
   description:
-    "Op. Dr. Mehmet Şahin - Ankara'da Göz Hastalıkları Uzmanı. Katarakt Cerrahisi, Refraktif Cerrahi, Excimer Laser, Retina Hastalıkları tedavisi. 30.000+ vaka deneyimi ile Özel Koru Hastanesi'nde hizmet vermektedir.",
+    "Op. Dr. Mehmet Şahin - Ankara'da Göz Hastalıkları Uzmanı. Katarakt Cerrahisi, Refraktif Cerrahi, Excimer Laser, Retina Hastalıkları tedavisi. 40.000+ vaka deneyimi ile Özel Koru Hastanesi'nde hizmet vermektedir.",
   keywords: [
     "göz doktoru ankara",
     "katarakt cerrahisi",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "Op. Dr. Mehmet Şahin",
     title: "Op. Dr. Mehmet Şahin | Göz Hastalıkları Uzmanı - Ankara",
     description:
-      "Katarakt ve Refraktif Cerrahi Uzmanı. 30.000+ vaka deneyimi ile Ankara'da hizmet vermektedir.",
+      "Katarakt ve Refraktif Cerrahi Uzmanı. 40.000+ vaka deneyimi ile Ankara'da hizmet vermektedir.",
     images: [
       {
         url: "/images/home/op-dr-mehmet-sahin.jpg",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Op. Dr. Mehmet Şahin | Göz Hastalıkları Uzmanı",
     description:
-      "Katarakt ve Refraktif Cerrahi Uzmanı. 30.000+ vaka deneyimi ile Ankara'da hizmet vermektedir.",
+      "Katarakt ve Refraktif Cerrahi Uzmanı. 40.000+ vaka deneyimi ile Ankara'da hizmet vermektedir.",
     images: ["/images/home/op-dr-mehmet-sahin.jpg"],
   },
   robots: {

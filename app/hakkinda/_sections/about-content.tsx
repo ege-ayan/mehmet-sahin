@@ -168,7 +168,7 @@ export default function AboutContent() {
                   Katarakt ve Diğer Ön Segment Cerrahileri, Refraktif Cerrahi,
                   Retina Hastalıkları{" "}
                   <span className="font-semibold text-blue-300">
-                    (30.000'den fazla vaka deneyimi)
+                    (40.000'den fazla vaka deneyimi)
                   </span>
                 </p>
               </div>

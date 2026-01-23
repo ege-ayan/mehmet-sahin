@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Op. Dr. Mehmet Şahin | Göz Hastalıkları Uzmanı | Ankara",
   description:
-    "Op. Dr. Mehmet Şahin - Ankara'nın önde gelen göz hastalıkları uzmanı. Katarakt cerrahisi, excimer lazer, glokom tedavisi ve retina hastalıkları konusunda uzman. 30.000+ başarılı vaka deneyimi ile güvenilir tedavi.",
+    "Op. Dr. Mehmet Şahin - Ankara'nın önde gelen göz hastalıkları uzmanı. Katarakt cerrahisi, excimer lazer, glokom tedavisi ve retina hastalıkları konusunda uzman. 40.000+ başarılı vaka deneyimi ile güvenilir tedavi.",
   keywords: [
     "göz doktoru ankara",
     "katarakt cerrahisi",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Op. Dr. Mehmet Şahin | Göz Hastalıkları Uzmanı | Ankara",
     description:
-      "Ankara'nın önde gelen göz hastalıkları uzmanı. Katarakt cerrahisi, excimer lazer ve retina hastalıkları konusunda uzman. 30.000+ başarılı vaka deneyimi.",
+      "Ankara'nın önde gelen göz hastalıkları uzmanı. Katarakt cerrahisi, excimer lazer ve retina hastalıkları konusunda uzman. 40.000+ başarılı vaka deneyimi.",
     url: "/",
     images: [
       {

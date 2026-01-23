@@ -70,7 +70,7 @@ export default function HomeOpening() {
             <div className="bg-blue-600/20 backdrop-blur-sm border border-blue-400/30 rounded-2xl px-6 py-4 inline-block">
               <p className="text-blue-100 text-lg sm:text-2xl font-semibold">
                 <span className="text-2xl text-blue-300 font-bold">
-                  30.000+
+                  40.000+
                 </span>{" "}
                 Vaka Deneyimi
               </p>
