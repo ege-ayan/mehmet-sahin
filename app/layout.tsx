@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "göz estetiği",
     "ankara göz doktoru",
   ],
-  authors: [{ name: "Ege Ayan", url: "https://egeayan.dev" }],
+  authors: [{ name: "Ege Ayan", url: "https://github.com/ege-ayan" }],
   creator: "Ege Ayan",
   publisher: "Ege Ayan",
   formatDetection: {
